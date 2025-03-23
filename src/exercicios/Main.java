@@ -18,6 +18,12 @@ public class Main {
         //LacosRepeticao.imprimirMultiplo();
         //LacosRepeticao.numeradorDenominador();
         
-        Condicional.primo();
+        //Condicional.primo();
+        
+        //Arrays.somaArray();
+        //Arrays.maiorMenor();
+        //Arrays.inverterOrdem();
+        //Arrays.Ordenar();
+                
     }
 }
