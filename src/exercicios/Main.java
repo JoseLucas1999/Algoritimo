@@ -1,5 +1,6 @@
 package exercicios;
 
+import exerciciosEstruturaDados.ArrayListExercico;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -24,6 +25,8 @@ public class Main {
         //Arrays.maiorMenor();
         //Arrays.inverterOrdem();
         //Arrays.Ordenar();
+        //exerciciosEstruturaDados.ArrayListExercico.gerenciadorTarefa();
+        exerciciosEstruturaDados.HashMapExercicio.dicionario();
                 
     }
 }
