@@ -254,5 +254,5 @@ a quantidade de valores negativos e o percentual de valores negativos e positivo
 
         scan.close();
     }
-
-}
+//------------------------------------------------------------------------
+    }

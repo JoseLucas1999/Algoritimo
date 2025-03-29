@@ -1,7 +1,6 @@
 package exercicios;
 
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Arrays {
@@ -118,14 +117,52 @@ public class Arrays {
     }
 //--------------------------------------------------------------------------
 /*5. Crie um programa que receba um array de números inteiros e um número específico. 
-O programa deve contar **quantas vezes esse número aparece no array*/
-    public static void a() {
+O programa deve contar quantas vezes esse número aparece no array*/
+    public static void quantasVezesAparece() {
+        int[] numeros = new int[50];
+        int count = 0;
+        Scanner scan = new Scanner(System.in);
 
+        //gera um random para preencher o array
+        Random random = new Random();
+        for (int i = 0; i < numeros.length; i++) {
+            numeros[i] = random.nextInt(50) + 1;
+        }
+
+        System.out.println("Digite um valor entre 0 e 100");
+        int num = scan.nextInt();
+
+        for (int n : numeros) {
+            if (n == num) {
+                count++;
+            }
+        }
+
+        System.out.println("o Numero " + num + " aparece " + count + " vezes");
+
+        scan.close();
     }
 //--------------------------------------------------------------------------
-/* 6. Crie um programa que calcule a **média** dos elementos de um array de inteiros.  */
+/* 6. Crie um programa que calcule a média dos elementos de um array de inteiros.  */
 
-    public static void b() {
+    public static void mediaArray() {
+        int[] numeros = new int[10];
+        double media = 0;
+        Scanner scan = new Scanner(System.in);
 
+        //gera um random para preencher o array
+        Random random = new Random();
+        for (int i = 0; i < numeros.length; i++) {
+            //Math.random() é melhor para aplicações simples
+            numeros[i] = (int) (Math.random() * 10) + 1;
+        }
+
+        System.out.println("numeros: ");
+        for (int n : numeros) {
+            media = media + n;
+            System.out.print(n + " - ");
+        }
+        media = media / 10;
+        System.out.println("media: " + media);
     }
 }

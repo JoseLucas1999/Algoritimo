@@ -26,7 +26,10 @@ public class Main {
         //Arrays.inverterOrdem();
         //Arrays.Ordenar();
         //exerciciosEstruturaDados.ArrayListExercico.gerenciadorTarefa();
-        exerciciosEstruturaDados.HashMapExercicio.dicionario();
+        //exerciciosEstruturaDados.HashMapExercicio.dicionario();
+        //Arrays.quantasVezesAparece();
+        //Arrays.mediaArray();
+        //DateAndTime.CalcularIdade();
                 
     }
 }
