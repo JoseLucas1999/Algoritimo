@@ -1,4 +1,6 @@
-package exercicios;
+package classMain;
+
+
 
 import exerciciosEstruturaDados.ArrayListExercico;
 import java.text.DecimalFormat;
@@ -30,6 +32,10 @@ public class Main {
         //Arrays.quantasVezesAparece();
         //Arrays.mediaArray();
         //DateAndTime.CalcularIdade();
+        
+        //exerciciosEstruturaDados.StackExercicio.pilha();
+        //exerciciosEstruturaDados.QueueExercicio.queue();
+        exerciciosEstruturaDados.HashSetExercicio.hashSet();
                 
     }
 }

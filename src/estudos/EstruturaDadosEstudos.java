@@ -165,6 +165,7 @@ size(): Retorna o número de elementos na lista.
 5. Conjunto (Set)
 O Set é uma coleção que não permite elementos duplicados.
 Usando a interface Set e implementações como HashSet ou LinkedHashSet:
+
 add(E e): Adiciona um item ao conjunto.
 remove(Object o): Remove um item do conjunto.
 contains(Object o): Verifica se o conjunto contém o item.
