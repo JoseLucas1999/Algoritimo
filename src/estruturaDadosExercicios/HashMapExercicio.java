@@ -1,4 +1,4 @@
-package exerciciosEstruturaDados;
+package estruturaDadosExercicios;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package exerciciosEstruturaDados;
+package estruturaDadosExercicios;
 
 import java.util.HashSet;
 import java.util.Scanner;

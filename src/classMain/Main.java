@@ -2,7 +2,7 @@ package classMain;
 
 
 
-import exerciciosEstruturaDados.ArrayListExercico;
+import estruturaDadosExercicios.ArrayListExercico;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -33,9 +33,11 @@ public class Main {
         //Arrays.mediaArray();
         //DateAndTime.CalcularIdade();
         
-        //exerciciosEstruturaDados.StackExercicio.pilha();
-        //exerciciosEstruturaDados.QueueExercicio.queue();
-        exerciciosEstruturaDados.HashSetExercicio.hashSet();
+        //PilhaExercicio.StackExercicio.pilha();
+        //filaExercicio.QueueExercicio.queue();
+        //estruturaDadosExercicios.HashSetExercicio.hashSet();
+        
+        PilhaExercicio.PilhaPessoa.pilhaPessoas();
                 
     }
 }

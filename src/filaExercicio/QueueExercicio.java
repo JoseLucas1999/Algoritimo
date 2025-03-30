@@ -1,4 +1,4 @@
-package exerciciosEstruturaDados;
+package filaExercicio;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package exerciciosEstruturaDados;
+package PilhaExercicio;
 
 import java.util.Scanner;
 import java.util.Stack;
